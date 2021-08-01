@@ -1,0 +1,47 @@
+
+body
+{
+    font-family: cursive;
+}
+.logo
+{
+    width: 15%;
+    
+}
+/* header
+{
+    min-height: 400px;
+} */
+/* li a
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+.nav-item .nav-link
+{
+    font-size: 20px;
+    /* font-family:cursive; */
+}
+.searchBox
+{
+    width: 50%;
+}
+#allMealContainer
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 10ox;
+}
+.foodImg
+{
+    width: 700px;
+    height: 350px;
+}
+#searchByMealContainer
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 10ox;
+}
